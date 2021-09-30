@@ -69,19 +69,6 @@ public class PicMove
         {
             System.out.println(ve.getMessage());
         }
-
-        // I normally run this program from Eclipse. This sleep allows me to see the above message rather than it disappearing.
-        // There is no functional reason for this sleep. Remove it if adapting to run from command line.
-        System.out.println("\nWaiting for 5 seconds...");
-
-        try
-        {
-            Thread.sleep(5);
-        }
-        catch (InterruptedException ie)
-        {
-            System.out.println("Sleep interrupted...");
-        }
     }
 
     private static void moveFiles(String inSourceFolderName) throws ValException

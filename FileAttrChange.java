@@ -48,17 +48,6 @@ public class FileAttrChange
         {
             System.out.println(ve.getMessage());
         }
-
-        System.out.println("\nWaiting for 5 seconds...");
-
-        try
-        {
-            Thread.sleep(5);
-        }
-        catch (InterruptedException ie)
-        {
-            System.out.println("Sleep interrupted...");
-        }
     }
 
     private static void adjustFiles(String inSourceFolderName) throws ValException
